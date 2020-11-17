@@ -1,4 +1,4 @@
 # ProjecteSO
 Projecte de la assignatura Sistemes Operatius
 
-Versión 3 generada por Jordi
+Versión 2 generada por Jordi
