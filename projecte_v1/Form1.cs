@@ -15,7 +15,7 @@ namespace WindowsFormsApplication1
     {
         Socket server;
         int PORT = 9060;
-        string IP = "192.168.56.101";
+        string IP = "192.168.56.102";
         int HeEntrat = 0; // utilitzare aquesta variable per evitar l'error d'intentar entrar 2 cops.
         string[] Usuaris;
 
