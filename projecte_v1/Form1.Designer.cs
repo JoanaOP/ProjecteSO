@@ -41,6 +41,15 @@
             this.Nom_Jugador_TextBox = new System.Windows.Forms.TextBox();
             this.DonamPersonesQueNoHanGuanyatButton = new System.Windows.Forms.RadioButton();
             this.EnviarPeticionButton = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+=======
+            this.count_lbl = new System.Windows.Forms.Label();
+            this.serveis = new System.Windows.Forms.Button();
+            this.LlistaConectats = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
+            this.MostrarUsuarisConectats = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.LlistaConectats)).BeginInit();
+>>>>>>> dev-v3
             this.SuspendLayout();
             // 
             // BotoEntrar
@@ -159,7 +168,11 @@
             // 
             // EnviarPeticionButton
             // 
+<<<<<<< HEAD
             this.EnviarPeticionButton.Location = new System.Drawing.Point(72, 347);
+=======
+            this.EnviarPeticionButton.Location = new System.Drawing.Point(72, 373);
+>>>>>>> dev-v3
             this.EnviarPeticionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EnviarPeticionButton.Name = "EnviarPeticionButton";
             this.EnviarPeticionButton.Size = new System.Drawing.Size(119, 40);
@@ -168,11 +181,78 @@
             this.EnviarPeticionButton.UseVisualStyleBackColor = true;
             this.EnviarPeticionButton.Click += new System.EventHandler(this.EnviarPeticionButton_Click);
             // 
+<<<<<<< HEAD
+=======
+            // count_lbl
+            // 
+            this.count_lbl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.count_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.count_lbl.Location = new System.Drawing.Point(271, 430);
+            this.count_lbl.Name = "count_lbl";
+            this.count_lbl.Size = new System.Drawing.Size(194, 39);
+            this.count_lbl.TabIndex = 17;
+            // 
+            // serveis
+            // 
+            this.serveis.Location = new System.Drawing.Point(271, 373);
+            this.serveis.Name = "serveis";
+            this.serveis.Size = new System.Drawing.Size(194, 42);
+            this.serveis.TabIndex = 16;
+            this.serveis.Text = "Nº de serveis fets";
+            this.serveis.UseVisualStyleBackColor = true;
+            this.serveis.Click += new System.EventHandler(this.serveis_Click);
+            // 
+            // LlistaConectats
+            // 
+            this.LlistaConectats.AllowUserToAddRows = false;
+            this.LlistaConectats.AllowUserToDeleteRows = false;
+            this.LlistaConectats.AllowUserToResizeColumns = false;
+            this.LlistaConectats.AllowUserToResizeRows = false;
+            this.LlistaConectats.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.LlistaConectats.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.LlistaConectats.ColumnHeadersVisible = false;
+            this.LlistaConectats.Location = new System.Drawing.Point(587, 52);
+            this.LlistaConectats.Name = "LlistaConectats";
+            this.LlistaConectats.ReadOnly = true;
+            this.LlistaConectats.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.LlistaConectats.RowTemplate.Height = 24;
+            this.LlistaConectats.Size = new System.Drawing.Size(152, 175);
+            this.LlistaConectats.TabIndex = 19;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(584, 27);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(160, 17);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Llista Usuaris Conectats";
+            // 
+            // MostrarUsuarisConectats
+            // 
+            this.MostrarUsuarisConectats.Location = new System.Drawing.Point(442, 114);
+            this.MostrarUsuarisConectats.Name = "MostrarUsuarisConectats";
+            this.MostrarUsuarisConectats.Size = new System.Drawing.Size(119, 45);
+            this.MostrarUsuarisConectats.TabIndex = 21;
+            this.MostrarUsuarisConectats.Text = "Actualitzar llista conectats";
+            this.MostrarUsuarisConectats.UseVisualStyleBackColor = true;
+            this.MostrarUsuarisConectats.Click += new System.EventHandler(this.MostrarUsuarisConectats_Click_1);
+            // 
+>>>>>>> dev-v3
             // form_inicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(738, 440);
+=======
+            this.ClientSize = new System.Drawing.Size(796, 497);
+            this.Controls.Add(this.MostrarUsuarisConectats);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.LlistaConectats);
+            this.Controls.Add(this.count_lbl);
+            this.Controls.Add(this.serveis);
+>>>>>>> dev-v3
             this.Controls.Add(this.EnviarPeticionButton);
             this.Controls.Add(this.DonamPersonesQueNoHanGuanyatButton);
             this.Controls.Add(this.Nom_Jugador_TextBox);
@@ -188,7 +268,12 @@
             this.Controls.Add(this.BotoEntrar);
             this.Name = "form_inicial";
             this.Text = "Form1";
+<<<<<<< HEAD
           
+=======
+            this.Load += new System.EventHandler(this.form_inicial_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.LlistaConectats)).EndInit();
+>>>>>>> dev-v3
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,6 +294,14 @@
         private System.Windows.Forms.TextBox Nom_Jugador_TextBox;
         private System.Windows.Forms.RadioButton DonamPersonesQueNoHanGuanyatButton;
         private System.Windows.Forms.Button EnviarPeticionButton;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Label count_lbl;
+        private System.Windows.Forms.Button serveis;
+        private System.Windows.Forms.DataGridView LlistaConectats;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button MostrarUsuarisConectats;
+>>>>>>> dev-v3
     }
 }
 
